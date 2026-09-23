@@ -1,93 +1,99 @@
 %PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-  /Type /Catalog
-  /Pages 2 0 R
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
 >>
 endobj
 2 0 obj
 <<
-  /Type /Pages
-  /Kids [3 0 R]
-  /Count 1
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-  /Type /Page
-  /Parent 2 0 R
-  /MediaBox [0 0 612 792]
-  /Resources <<
-    /Font <<
-      /F1 4 0 R
-    >>
-  >>
-  /Contents 5 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-  /Type /Font
-  /Subtype /Type1
-  /BaseFont /Helvetica-Bold
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
 >>
 endobj
 5 0 obj
 <<
-  /Length 680
+/Contents 10 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20260923165036+02'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260923165036+02'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages
+>>
+endobj
+10 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2945
 >>
 stream
-BT
-/F1 20 Tf
-50 740 Td
-(MWIZERWA STEVEN - IT ENGINEER) Tj
-/F1 10 Tf
-0 -22 Td
-(Kigali, Rwanda | P: +250 786974250 | stevenmwizerwa1@gmail.com | GitHub: github.com/Mustivo) Tj
-0 -26 Td
-(EDUCATION) Tj
-0 -16 Td
-(Mount Kigali University - Bachelor's degree in computer science (Sept 2025 - Present)) Tj
-0 -14 Td
-(Ecole Technique Saint Kizito Musha - A2 in Software development (Sept 2021 - June 2024)) Tj
-0 -24 Td
-(EXPERIENCE) Tj
-0 -16 Td
-(IT Engineer - WITH A MULTISERVICES LTD, Muhanga (Sept 2024 - Aug 2025)) Tj
-0 -13 Td
-(- Customer support, equipment management, Irembo services, and network infrastructure) Tj
-0 -16 Td
-(Open Source Kigali - Collaborating and contributing to open-source software activities) Tj
-0 -16 Td
-(Bright Vision Training Center - Guided learners through computer and programming topics) Tj
-0 -16 Td
-(Solvit Africa Code2Connect Fellowship - Mobile app development with React Native & TypeScript) Tj
-0 -24 Td
-(TECHNICAL SKILLS) Tj
-0 -14 Td
-(React.js, React Native, TypeScript, JavaScript, Tailwind CSS, Expo, Node.js, Express.js, PHP, MySQL, REST APIs) Tj
-0 -14 Td
-(Git/GitHub, Firebase, Responsive Design, UI/UX, Network Administration, Microsoft Office) Tj
-0 -22 Td
-(LANGUAGES: Fluent in Kinyarwanda; Conversational Proficiency in English | LICENSE: Category B) Tj
-0 -18 Td
-(REFERENCES: Available upon request) Tj
-ET
-endstream
+Gb"/igN)%.&r,lR'R_k#fp*G,#Ed6\3jt2b''EXOajsL1+L":D637Pqb3M1g(-kc\a)[EPQ)(9h>\+X%dNJMnqSV25$2EE\EM'<:GVY%E:C3*_k"?hZ(W$"q9]ej;O1K*47'S\*,Y3L:8"Yi)5>KZM!mf2?P)[:&j!aH<TSfKlo=eN-)8Wt?7o'40WGOX$CqCt_]a0"QkAYh=@JZV<jbHd%bpVs-YC;3$mkFbHS8;IeR30+*H@)\CKQLM1EPKkYm2ZL)]I46#s!OMRWKih'ZV0chn:EXBquFCVrI?BUp]W<a`CFlm77Bu1,=rOCB+Xs%UgqK/#jehn<Z>;;W3>t4<*,=^X/IJN4=9AgpU<5g>JN3;mh0$?T6a?G`-q*,FmiVnI6U;u&A4AUj!Xp]8c:=NS:G8-4Du$sU#;ea(UcPh/m<,e8p9$>ai,XOVrBF1mYD6p%2Y'0.4=h(']%khUbYSGEVUH?iUEYBgA8aP$LoBu^Z[1RZF'1'W#/PVD45SM[PchPJ2HiV/d0+NiTc67Dg+sXb@a>^rGrEfi-QpJ:r-s\Zf>G,p020D\=TOmS,YD-a-2"fR9WK7YKeJIW&o+>WL*699EuG,2YN=K]JPS"/-7J!K.meM;9%6]@3!3QX7fc4n$L89ht8b7Q(pO)HRnR=FK'<Y@6/lJVf;1oja9+Y>eZi%9kNm8IXYoL65PINbl^$raZ?uFLlc-ehZ\daAp=!p&hb)W"!$$XMLl<e\Xm$[(Z"A7rU"*6=/tUt`hTHj!/NfIdlC)i_$-ReVgLu]4*>9$"lX;.\P*L>JA_b=;3.G2MZ#)KR68C,5i;kZHjkT]S@4.M/)DQ'<jV*E^"k\/8a$=>6(']/g0ElhQ$SJ<*pLR2ljSoi$UPIQ*?lL?cEZ@Z<1$%u'f#m?3>c;'i/C^0gW%ZN"=7(D'ibMsjhd[`K&Ht<ROb@$JO\*H,G64c-L7NdW$(91&5jIm[.j6XMmIQK*D4k]em'0<JT8TBT[7Ys9aQMYTb93i"*gP;XZ/]8\t/GE)d39eCG*+TMAe)NQr;&7.)D,R;ham26;pafPcERf.ZFp$<#7IbPRG]@QYS'aJN:g5Ou)G/9ieR0#5m9I`i8$N<Gg#MYoX]EJk"E:Zq!a^?eP-&Bh,fXd_0-Kc43!LB2[eBZ\,\4Kh9EZ/rC7FMH`MI/0n4r;V,\9Qc;`n,@q$=ekupOVdV"hi!S"W:9UAAW:nE?!a'l?i,SP`#l[6^U,;A2CHEp,MK3-\oF1+@rW%n@0_:Gam5b.NI,?o/2nsPT]:P^3<.E.'SIK!&"_PZ>]27:TkCaC")?9_%hm!$<6B/iu3Q8*9^WuC03&o*j12*%")RZ+m)N'hB%TGua5c*(GCD:@"_1%C3MAoNZ?/J=0lrR!;b-DaB[=k7(hN[RA:A8hZ]W`5`Z;hg:Q?c].[]>Y6onaC0-s7s%f=%mX?W;u"Hf"$BPZLb"a/Gj>'rP'PMqfq?)F9iN\%lFXPfi>k).a&nrN'l&$DfK73C\*6'fAlpYK(luQ\'+&aGCTY"IRCFEa5t?@DB5@)^Q:8egFX%/,,T=.ID/i:LT]8$?)Um)Z,0\+-+@m%18KE<\]91jSKNO,_;:-=jP!TQ0&hh[P%E:^32R>B2TSc(TigL:*rG-nf:t((D<5-dcO?]$?!"42CM=B(H7&-eD*U6/L:UVk8XR`YI(*Ai5^GT:M@;kfghBk;P;['M"'?<Im]L[N&T7dirX7+@3ljl:f@"DRaP'lPE8i\jop>hWPcW.(qjMLA$Rigc3'B<fdhq"SF1$qlJZ@"Xah]qdjg$)U4SYJJD.")KqDT!VUn(;,;$s<H.9iJCq2h@.o,%@2t2b(I,6KGZ=P>cp+$O=Y_$:%4hqE]L>%`#"5</i+rno[[LJ`Z'kans[kjF^E$g:Ce_=$(XL=9NIl._=:#Sq1gI]bGj4d[\2r21k&olj_akT>%Z>cRgqpa6f(FHuW/RdI7B_+R\67U[RNM5ZPi<mQcHJSY.7C)MR1.NWuIbiq@.GgF(>U!aVb;a.GVuiu$aUL"pUO,lgN":sC-S;M1.+F4jR]l3=ZaHJ2qdR+"C5%\Lf;i=K/"Ut(@a>X7/Qf!JY`ZMebiWm@AdV3=h:DJHa"TP:i]HI=C]8oe2[7OX`(3>[nuRViWQOnTiQcaO>:_PAr5krPf-%*]C5"0uHP%*LnIEb*c>5D5*k3eKrpK,p5(3BE:J^o4M[mHO)^OI;eK8[604ZS,Dcu%iE((!jf7,Ym5G>0s8h,oqa!t0FbSWjdn@fYro=ZDAm_)=6n$]LUXaV;N_)V(m6W^oQl^b5A(!g;;D$Ae`EcD,e.\u($XRuj>C?U97)[6*EoX-SZhk9Wa2UHJG<UW4?&?QW9@!f<*5,NoMlNOkFd&s_6k"ajm;Yr4m?/XI0r>H"hgV%bfM!WU;?)B4s5E>s]-7ab[1Z+g/KULZ[KbsXp2\I`H?.'gF"hS,):,[HH2(bc:rNp26ZL>kgdf@Zi)8>1U0&PHM\G\NQhlMA&,t*oA8P&8D#gs=E[oT/KY-SV`G.W)<i?+R%cP4W.<s#pF*Lf3eogY:M&-k1:ffk!<>QAW0b/W*QL)^-O"s5a^fooqlM`YdbcQm;V&$l_C+&4K8B5m_4*1joop%i\5+-0c9_WfbFl/_g(@e+7tqtTKK?7*BV%W3^dQjg+rE/`SR%KA$g>u3H%f*MNAghm]X45^&hV'--hDg^dIA]@R4AQr/PFm\K_H\@-c20lMMZrJ2/\s0iU!EZXC4)B"cm_@MeQ?Q,hl(Z&.U``g<l;es;A<?]_q\&XL?fJoJgLgE`jtFD&Z*Rih]ab%/aCHIh:J.;T4pdHa".'P.[8Nd@d@,(*,m8"kOYnW8e8W+.$a:=gfq$DIY>T2.cF8elF`50eG#<6;]OW_/S$48i'%2WjnMk9s[QS;pS\:E)Ho]rf;&Xf?_q.aFqB%q!%!_~>endstream
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1039
+>>
+stream
+Gatn%?$#!`(kqGS($@&6>1Km:D.)i-bf<%:YhP_oE$K2XBJC-^A6AhZ`s18cAd^C/?e?8gYKqKd3S'S7KaV)?P82H(EAs\d*o[@%n+_]/(rWiVg3sQd+$)!,NH0C5]iNFhcroa<kZ3DoLGB[q%JMa9p`N\qIDdY_7_/P:kb2:J4)WD[Gs34WmF$.`LPC9,%A>T-B=-@1:b-7j9L%>WregK;;X1[`qCako[f-k\4?-[*[p9M>UUgqqJ$;d.:`7p_WB\>];*`KdU'AFIgTW*R@Vmj#&#/RFfe#M&>P%e=_3D:E3aW?41]Om*`(]5r+k,uss(U"PRpHIrQR,9W;r"$%Gr2Gh**"Ygo;khrFZK6*f%cX-4F*;*9F"G-..YL__:+_fS\i*\Bgon?:m,3;dPU,kVYLNLc)]s&cRbPA_p8lS$=6>8U5[>RO'Y<Zj'D>FBOOpM0@MYl=NO80]*(KpH"lG0n);e@&M'+cgn;tP0C(CoNiJEI\/1Ih?J($B:=*(aP&#Y6,4njW$06D$&/TYqegsr:oH*III<:W-''9<)s(XQ=N,aJ?\^8Q&>pQl*r%sM1oVFg!C:,ZFf6HG$X7T<2N8T9O[#@2g9U*R7P6iU]e9j,TLq);tKH#MVB.RC5euG,#gq5(IL!3;2C0W>HO]pD[i=0*/$^$sQF;2HRdT@bu)7?^DU3'Q[-je3+->L`s6j[Q63_@2J+h1T'bB^X:C"=gqoa0$H`Fd&!<j:rGnSqn)d.U6qU&J39*Re4>;hg_'Km731CcEmT".A8f]^6MiH,6?50+9_)a^Mp,N(?\e\_;V7`J//e7)Gc\PE,Y\NZPMh;gO3OB(^daH8%%brLj)bK*+>W6A1q3ReSj<""-(\$a?a14Oos&/+f82S@70i\NZOl:MDW'oY)ZQg(a\8F]raH,Pmg3d&+jmIc$_1<33cfj+\!R0&dSPqST>SQcir"ROu9?s+]T6nj15YIUdD40N8s?W^7pGX$]"HI)3uKE:XC,%21akk8_7?Q,Jp%(YmXfWSbGA5Cc,g0.+YKe,~>endstream
 endobj
 xref
-0 6
+0 12
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000266 00000 n 
-0000000348 00000 n 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000446 00000 n 
+0000000640 00000 n 
+0000000834 00000 n 
+0000000902 00000 n 
+0000001182 00000 n 
+0000001247 00000 n 
+0000004284 00000 n 
 trailer
 <<
-  /Size 6
-  /Root 1 0 R
+/ID 
+[<0cc7296ebe81c9fc8e5c49f5f53c84e1><0cc7296ebe81c9fc8e5c49f5f53c84e1>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 12
 >>
 startxref
-1080
+5415
 %%EOF

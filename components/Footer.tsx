@@ -123,19 +123,10 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  href="/projects/open-source-kigali"
+                  href="/projects/bright-vision"
                   className="inline-flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-sky-600 dark:hover:text-sky-400 transition-colors"
                 >
-                  <span>Open Source Kigali (Frontend)</span>
-                  <ArrowUpRight className="w-3 h-3 opacity-70" />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/projects/movie-application"
-                  className="inline-flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-sky-600 dark:hover:text-sky-400 transition-colors"
-                >
-                  <span>MovieApplication (Expo / React Native)</span>
+                  <span>Bright Vision (Training Platform)</span>
                   <ArrowUpRight className="w-3 h-3 opacity-70" />
                 </Link>
               </li>
@@ -145,6 +136,15 @@ export function Footer() {
                   className="inline-flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-sky-600 dark:hover:text-sky-400 transition-colors"
                 >
                   <span>ZoraShop Rwanda</span>
+                  <ArrowUpRight className="w-3 h-3 opacity-70" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/projects/inzuhub-real-estate"
+                  className="inline-flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-sky-600 dark:hover:text-sky-400 transition-colors"
+                >
+                  <span>InzuHub (Smart Housing Platform)</span>
                   <ArrowUpRight className="w-3 h-3 opacity-70" />
                 </Link>
               </li>

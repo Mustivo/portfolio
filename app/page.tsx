@@ -63,7 +63,7 @@ export default function HomePage() {
                 Practical engineering for local and global impact.
               </h2>
               <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm sm:text-base">
-                Whether creating platforms for Open Source Kigali, building e-commerce engines like ZoraShop, or architecting citizen feedback tools, I am driven by the motto <strong>&quot;Work Hard&quot;</strong>. I craft software that is responsive, accessible, and dependable.
+                Whether architecting educational portals like Bright Vision, engineering digital platforms like InzuHub, or contributing to community initiatives with Open Source Kigali, I am driven by the motto <strong>&quot;Work Hard&quot;</strong>. I craft software that is responsive, accessible, and dependable.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">

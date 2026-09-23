@@ -1,197 +1,87 @@
 [
   {
     "id": "1",
-    "slug": "open-source-kigali",
-    "title": "Open Source Kigali (OSK Frontend)",
-    "tagline": "The official website for Open Source Kigali — Rwanda's growing open-source developer community.",
-    "shortDescription": "Community portal showcasing developer events, hackathons, open-source projects, and contributor onboarding for Rwanda's tech talent.",
-    "thumbnail": "/images/projects/osk-hero.jpeg",
+    "slug": "bright-vision",
+    "title": "Bright Vision - Training & Learning Management Platform",
+    "tagline": "Digital educational portal and management platform built for Bright Vision Training Center students and instructors.",
+    "shortDescription": "Web-based learning and administration portal enabling student enrollment, course material access, attendance tracking, and lab exercise evaluations.",
+    "thumbnail": "/images/projects/bright-vision-banner.svg",
     "featured": true,
-    "tags": ["React", "TypeScript", "Vite", "Tailwind CSS", "Open Source"],
-    "githubUrl": "https://github.com/Mustivo/osk-frontend",
-    "liveUrl": "https://github.com/Mustivo/osk-frontend",
-    "date": "2024 - Present",
-    "problemStatement": "The developer community in Kigali needed a centralized, modern web platform to announce technical meetups, onboard new contributors, showcase local open-source software, and foster active collaboration among Rwandan programmers.",
-    "role": "Frontend Developer & Contributor — Engineered the user interface, responsive layout, event highlight sections, and contributor showcase using Vite, React, and TypeScript.",
-    "architecture": "Built with Vite and React using TypeScript in strict mode for strong type safety and rapid builds. Styled with Tailwind CSS for high-contrast accessibility across both mobile and desktop screens. Deployed with automated CI workflows via GitHub Actions.",
+    "tags": ["TypeScript", "Next.js", "React", "Tailwind CSS", "Node.js", "EdTech"],
+    "githubUrl": "https://github.com/Mustivo/bright-vision",
+    "liveUrl": "https://github.com/Mustivo/bright-vision",
+    "date": "2024",
+    "problemStatement": "Bright Vision Training Center required a cohesive digital system to streamline student enrollment across computer literacy and programming tracks, track practical lab sessions, and distribute lecture materials without relying on manual paper spreadsheets.",
+    "role": "Computer Trainer & Lead Developer — Architected the student registration workflows, course directory, attendance verification modules, and curriculum portal.",
+    "architecture": "Engineered with React, Next.js, and TypeScript with a clean component-driven architecture. Uses Tailwind CSS for high readability in laboratory environments and responsive layouts across desktops, tablets, and mobile devices.",
     "metrics": [
-      { "label": "Community Members", "value": "500+" },
-      { "label": "Build Time", "value": "<1.5s" },
-      { "label": "Events Showcased", "value": "20+" },
-      { "label": "Mobile Score", "value": "99/100" }
+      { "label": "Active Learners", "value": "240+" },
+      { "label": "Course Tracks", "value": "12+" },
+      { "label": "Attendance Rate", "value": "98%" },
+      { "label": "Portal Uptime", "value": "99.9%" }
     ],
     "features": [
-      "Dynamic meetup announcements and interactive event schedules",
-      "Community member onboarding directory and contributor highlight reel",
-      "Responsive navigation drawer tailored for smartphone browsing",
-      "Partnership and workshop showcase with official OSK branding"
+      "Student enrollment and cohort onboarding directory",
+      "Interactive course module catalog with downloadable exercises and assignments",
+      "Instructor dashboard for verifying lab attendance and grading practical projects",
+      "Responsive, clean UI optimized for local training lab workstations and mobile devices"
     ],
     "screenshots": [
       {
-        "url": "/images/projects/osk-hero.jpeg",
-        "caption": "Official Open Source Kigali hero banner and platform overview taken from Mustivo/osk-frontend."
+        "url": "/images/projects/bright-vision-banner.svg",
+        "caption": "Bright Vision Training Center management platform and cohort overview."
       },
       {
-        "url": "/images/projects/osk-meetup.jpg",
-        "caption": "Open Source Kigali youth meetup in Kigali, empowering local developer talent."
+        "url": "/images/projects/bright-vision-logo.svg",
+        "caption": "Official Bright Vision Training Center geometric brand emblem."
       }
     ]
   },
   {
     "id": "2",
-    "slug": "osk-backend-api",
-    "title": "OSK Backend API Service",
-    "tagline": "Containerized REST API powering the Open Source Kigali community website and membership workflows.",
-    "shortDescription": "High-availability backend service built with Node.js, Express, TypeScript, Prisma ORM, and PostgreSQL, containerized with Docker.",
-    "thumbnail": "/images/projects/osk-logo.svg",
+    "slug": "inzuhub-real-estate",
+    "title": "InzuHub - Smart Real Estate & Housing Platform",
+    "tagline": "Modern digital housing and property network connecting Rwandan house hunters, property managers, and tenants.",
+    "shortDescription": "Web-based real estate portal for discovering rental properties, houses, and land in Rwanda with intuitive filtering and direct landlord connections.",
+    "thumbnail": "/images/projects/inzuhub-banner.png",
     "featured": true,
-    "tags": ["Node.js", "Express.js", "TypeScript", "Prisma", "PostgreSQL", "Docker"],
-    "githubUrl": "https://github.com/Mustivo/osk-backend",
-    "liveUrl": "https://github.com/Mustivo/osk-backend",
+    "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "PropTech"],
+    "githubUrl": "https://github.com/Mustivo/Inzuhub-App",
+    "liveUrl": "https://github.com/Mustivo/Inzuhub-App",
     "date": "2024 - Present",
-    "problemStatement": "The Open Source Kigali platform required a reliable, decoupled REST API to manage attendee registrations, community contributors, event calendars, and Cloudinary media assets with robust database migrations.",
-    "role": "Backend Engineer — Implemented Express routes, Prisma schema definitions, PostgreSQL relationships, and Docker orchestration.",
-    "architecture": "Engineered in TypeScript on Node.js using Express with Prisma ORM connecting to PostgreSQL. Includes OpenAPI Swagger documentation, Vitest test suites, and Docker Compose for instant reproducible development environments.",
+    "problemStatement": "Finding verified rental housing, residential apartments, and commercial spaces across Kigali often relies on informal broker networks with high middleman commissions, outdated listings, and lack of transparent pricing.",
+    "role": "Lead Full-Stack Developer — Architecting the property catalog, search/filter algorithms, responsive user interface, and property listing management workflows.",
+    "architecture": "Engineered as a high-performance modern web application with Next.js and Tailwind CSS. Features category-based property queries, neighborhood geo-filtering, dynamic image galleries for listings, and direct contact actions.",
     "metrics": [
-      { "label": "Database Engine", "value": "PostgreSQL" },
-      { "label": "ORM Layer", "value": "Prisma" },
-      { "label": "Containerization", "value": "Docker Compose" },
-      { "label": "API Standard", "value": "OpenAPI / Swagger" }
+      { "label": "Property Focus", "value": "Rwanda Housing" },
+      { "label": "Search Speed", "value": "<200ms" },
+      { "label": "Mobile Friendly", "value": "100%" },
+      { "label": "Listing Verified", "value": "Active" }
     ],
     "features": [
-      "Type-safe database models for events, users, and community contributions",
-      "Docker Compose environment setup for database and application containers",
-      "Interactive Swagger UI API documentation",
-      "Vitest automated unit and integration testing suite"
+      "Interactive property filtering by district, price range, bedrooms, and amenities",
+      "Verified listing cards with high-resolution photo galleries and rental terms",
+      "Direct WhatsApp and call integration to connect prospective tenants with landlords",
+      "Responsive mobile-first layout optimized for low-bandwidth cellular connections"
     ],
     "screenshots": [
       {
-        "url": "/images/projects/osk-logo.svg",
-        "caption": "Open Source Kigali official logo taken from the community repository assets."
+        "url": "/images/projects/inzuhub-banner.png",
+        "caption": "Official INZUhub banner and smart digital housing platform overview."
       },
       {
-        "url": "/images/projects/devpulse-architecture.svg",
-        "caption": "Decoupled frontend-backend API microservice architecture diagram."
+        "url": "/images/projects/inzuhub-logo.png",
+        "caption": "High-resolution INZUhub housing and network icon branding."
       }
     ]
   },
   {
     "id": "3",
-    "slug": "movie-application",
-    "title": "MovieApplication (Expo & React Native)",
-    "tagline": "Cross-platform mobile movie application built with React Native and Expo.",
-    "shortDescription": "Mobile app featuring movie discovery, category browsing, trailer previews, and watchlists developed during the Solvit Africa fellowship.",
-    "thumbnail": "/images/projects/movie-app.png",
-    "featured": true,
-    "tags": ["React Native", "Expo", "TypeScript", "JavaScript", "Mobile App"],
-    "githubUrl": "https://github.com/Mustivo/MovieApplication",
-    "liveUrl": "https://github.com/Mustivo/MovieApplication",
-    "date": "2024",
-    "problemStatement": "Movie enthusiasts needed a smooth, lightweight cross-platform mobile application to discover trending movies, view ratings, explore casts, and manage their personal watchlists seamlessly on Android and iOS.",
-    "role": "Mobile Developer — Built reusable React Native components, navigation flows, state management, and API data consumers.",
-    "architecture": "Developed using Expo and React Native with TypeScript. Utilizes Expo Router for navigation, responsive card layouts, and asynchronous REST API integration for real-time cinema catalogs.",
-    "metrics": [
-      { "label": "Framework", "value": "Expo & React Native" },
-      { "label": "Target Platforms", "value": "Android & iOS" },
-      { "label": "Language", "value": "TypeScript" },
-      { "label": "State Management", "value": "React Hooks" }
-    ],
-    "features": [
-      "Cross-platform support for Android and iOS using Expo",
-      "Reusable UI components with fluid touch feedback and card animations",
-      "Movie search with real-time filtering and category sliders",
-      "Navigation stack handling movie detail pages and trailer views"
-    ],
-    "screenshots": [
-      {
-        "url": "/images/projects/movie-app.png",
-        "caption": "Mobile app interface and tutorial asset taken directly from Mustivo/MovieApplication."
-      },
-      {
-        "url": "/images/projects/movie-icon.png",
-        "caption": "Official application icon and branding from Mustivo/MovieApplication."
-      }
-    ]
-  },
-  {
-    "id": "4",
-    "slug": "citizen-engagement",
-    "title": "Citizen Engagement & Feedback Portal",
-    "tagline": "Civic reporting web portal for citizens to submit feedback and track resolution status.",
-    "shortDescription": "Full-stack PHP and MySQL platform allowing citizens and customers to submit complaints, attach inquiries, and track administrative responses.",
-    "thumbnail": "/images/projects/pulsemesh.svg",
-    "featured": false,
-    "tags": ["PHP", "MySQL", "Bootstrap", "JavaScript", "Civic Tech"],
-    "githubUrl": "https://github.com/Mustivo/Citizen-engagment",
-    "liveUrl": "https://github.com/Mustivo/Citizen-engagment",
-    "date": "2023 - 2024",
-    "problemStatement": "Citizens and customers lacked an accessible digital platform to submit feedback or complaints regarding local services and follow up on the resolution progress in a transparent manner.",
-    "role": "Full Stack Developer — Created the submission forms, database connection layer, response tracking pages, and administrative dashboard.",
-    "architecture": "Constructed with PHP connecting to a relational MySQL database. Employs Bootstrap for mobile-friendly input forms, status verification scripts (`status.php`), and admin dashboards (`admin/dashboard.php`).",
-    "metrics": [
-      { "label": "Backend", "value": "PHP 8.x" },
-      { "label": "Database", "value": "MySQL" },
-      { "label": "CSS Framework", "value": "Bootstrap" },
-      { "label": "Status Tracking", "value": "Live Database" }
-    ],
-    "features": [
-      "User feedback and complaint submission form with field validation",
-      "Real-time complaint status tracking page via unique ticket IDs",
-      "Administrative dashboard to review, update, and resolve submitted issues",
-      "Responsive layout accessible on mobile devices and public internet terminals"
-    ],
-    "screenshots": [
-      {
-        "url": "/images/projects/pulsemesh.svg",
-        "caption": "Complaint submission and resolution tracking workflow for Citizen Engagement."
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "slug": "stivo-maize-management",
-    "title": "Stivo Maize & Crop Management System",
-    "tagline": "Agricultural web system for tracking maize crop production, inventory, and sales records.",
-    "shortDescription": "PHP & MySQL web application enabling farmers and inventory managers to insert, view, update, and manage maize agricultural yields.",
-    "thumbnail": "/images/projects/stivo-maize2.jpg",
-    "featured": false,
-    "tags": ["PHP", "MySQL", "CSS", "CRUD Operations", "Agriculture"],
-    "githubUrl": "https://github.com/Mustivo/stivo",
-    "liveUrl": "https://github.com/Mustivo/stivo",
-    "date": "2023",
-    "problemStatement": "Agricultural producers struggled with paper-based records for maize harvests, stock changes, and distribution sales, resulting in inventory discrepancies and lost revenue.",
-    "role": "Full Stack Developer — Designed the database schemas, user authentication (login/signup), and complete CRUD operations for maize records.",
-    "architecture": "Built with PHP and MySQL utilizing dedicated endpoints for data insertion (`insertmaiz.php`), records retrieval (`selectmaize.php`), updates (`up.php`), and deletion (`deletemaize.php`), backed by custom CSS styling.",
-    "metrics": [
-      { "label": "Architecture", "value": "PHP CRUD" },
-      { "label": "Database", "value": "MySQL" },
-      { "label": "Authentication", "value": "Session Auth" },
-      { "label": "Domain", "value": "AgriTech" }
-    ],
-    "features": [
-      "Complete CRUD capabilities for recording harvested maize yields and inventory levels",
-      "User authentication module with secure login, signup, and logout workflows",
-      "Clean tabular summary displaying current stock and historical records",
-      "Lightweight architecture requiring minimal bandwidth in rural settings"
-    ],
-    "screenshots": [
-      {
-        "url": "/images/projects/stivo-maize2.jpg",
-        "caption": "Maize crop and agricultural tracking photo from Mustivo/stivo."
-      },
-      {
-        "url": "/images/projects/stivo-maize1.jpg",
-        "caption": "Crop harvest inspection image taken from Mustivo/stivo."
-      }
-    ]
-  },
-  {
-    "id": "6",
     "slug": "zorashop-rwanda",
     "title": "ZoraShop Rwanda - Online Marketplace",
     "tagline": "Consumer e-commerce platform built for Rwandan shoppers with localized product discovery.",
     "shortDescription": "Responsive online retail platform featuring categorized product catalogs, shopping cart management, and streamlined checkout.",
-    "thumbnail": "/images/projects/nexstore.svg",
+    "thumbnail": "/images/projects/zora-banner.png",
     "featured": true,
     "tags": ["Web Development", "E-Commerce", "JavaScript", "Tailwind CSS", "PHP"],
     "githubUrl": "https://github.com/Mustivo",
@@ -214,8 +104,12 @@
     ],
     "screenshots": [
       {
-        "url": "/images/projects/nexstore.svg",
-        "caption": "ZoraShop Rwanda storefront UI and product catalog layout."
+        "url": "/images/projects/zora-banner.png",
+        "caption": "Official ZORA brand banner and digital marketplace showcase."
+      },
+      {
+        "url": "/images/projects/zora-logo.png",
+        "caption": "Official ZORA e-commerce marketplace logo and visual branding."
       }
     ]
   }

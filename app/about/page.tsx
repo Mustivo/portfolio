@@ -16,8 +16,10 @@ import {
   Languages,
   Phone,
   Mail,
+  FileText,
 } from "lucide-react";
 import { GithubIcon, WhatsAppIcon } from "@/components/Icons";
+import { ResumeDocument } from "@/components/ResumeDocument";
 
 export const metadata: Metadata = {
   title: "About Mwizerwa Steven | IT Engineer & Developer",
@@ -42,15 +44,15 @@ const CAREER_TIMELINE = [
     ],
   },
   {
-    role: "Open Source Contributor & Developer",
+    role: "Open Source Contributor",
     company: "OPEN SOURCE KIGALI",
     location: "Kigali, RW",
     period: "Ongoing",
     description:
-      "Collaborating with fellow developers to improve practical software engineering skills and build community web platforms.",
+      "Collaborating with fellow developers to improve practical software engineering skills and contribute to community open-source repositories.",
     achievements: [
-      "Contributing to open-source software development activities and community web portals",
-      "Sharing knowledge, participating in coding sessions, and mentoring upcoming developers",
+      "Contributing as an open-source collaborator to community web portals and backend services",
+      "Sharing knowledge, participating in coding sessions, and supporting upcoming developers",
     ],
   },
   {
@@ -159,7 +161,7 @@ export default function AboutPage() {
           </p>
 
           <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400 leading-relaxed">
-            Currently pursuing my Bachelor&apos;s degree in Computer Science at <strong>Mount Kigali University</strong>, I have worked as an IT Engineer at <strong>WITH A MULTISERVICES LTD</strong>, completed the <strong>Solvit Africa Code2Connect Fellowship</strong> in React Native, and actively contribute to <strong>Open Source Kigali</strong>.
+            Currently pursuing my Bachelor&apos;s degree in Computer Science at <strong>Mount Kigali University</strong>, I have worked as an IT Engineer at <strong>WITH A MULTISERVICES LTD</strong>, completed the <strong>Solvit Africa Code2Connect Fellowship</strong> in React Native, and actively contribute to <strong>Open Source Kigali</strong> as an open-source contributor.
           </p>
 
           {/* Action Row */}
@@ -171,6 +173,14 @@ export default function AboutPage() {
             >
               <Download className="w-4 h-4" />
               <span>Download CV (PDF)</span>
+            </a>
+
+            <a
+              href="#resume-document"
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl font-semibold border border-slate-300 dark:border-slate-700 bg-white/70 dark:bg-slate-900/70 text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+            >
+              <FileText className="w-4 h-4 text-sky-500" />
+              <span>Official CV Layout</span>
             </a>
 
             <a
@@ -194,6 +204,11 @@ export default function AboutPage() {
             </a>
           </div>
         </div>
+      </section>
+
+      {/* Official Curriculum Vitae Document Layout */}
+      <section id="resume-document" className="pt-8 border-t border-slate-200/80 dark:border-slate-800/80 scroll-mt-20">
+        <ResumeDocument />
       </section>
 
       {/* Experience Timeline */}

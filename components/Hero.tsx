@@ -53,7 +53,7 @@ export function Hero() {
 
             {/* Value Proposition */}
             <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Based in {siteConfig.location}. I build responsive web platforms, cross-platform mobile apps (React Native), and manage IT infrastructure. From contributing to <strong>Open Source Kigali</strong> to engineering solutions like <strong>ZoraShop</strong> and <strong>InzuHub</strong>, I bring a commitment to hard work and practical technical excellence.
+              Based in {siteConfig.location}. I build modern, scalable web applications and manage IT systems and network infrastructure. From developing educational systems like <strong>Bright Vision</strong> to engineering platforms like <strong>InzuHub</strong> and contributing to <strong>Open Source Kigali</strong>, I bring a commitment to hard work and practical technical excellence.
             </p>
 
             {/* CTA Buttons */}
@@ -110,7 +110,7 @@ export function Hero() {
                   OSK
                 </span>
                 <span className="text-xs text-slate-500 dark:text-slate-400">
-                  Open Source Kigali
+                  Open Source Contributor
                 </span>
               </div>
               <div>

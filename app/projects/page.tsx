@@ -7,7 +7,7 @@ import { Sparkles } from "lucide-react";
 export const metadata: Metadata = {
   title: "Projects & Applications | Mwizerwa Stiven",
   description:
-    "Explore web applications, Open Source Kigali portals, e-commerce platforms, and developer tools built by Mwizerwa Stiven (@Mustivo).",
+    "Explore full-stack web applications, the Bright Vision educational platform, and Rwandan e-commerce platforms built by Mwizerwa Stiven (@Mustivo).",
 };
 
 export default function ProjectsPage() {
@@ -23,10 +23,10 @@ export default function ProjectsPage() {
           <span>Portfolio Showcase</span>
         </div>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white">
-          Projects &amp; Open Source Work
+          Projects &amp; Case Studies
         </h1>
         <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed">
-          A showcase of full-stack web applications, Open Source Kigali initiatives, Rwandan commerce platforms, and developer tools. Filter by technology to explore specific case studies.
+          A showcase of full-stack web applications, educational platforms like Bright Vision, and Rwandan e-commerce portals. Filter by technology to explore specific case studies.
         </p>
       </div>
 
