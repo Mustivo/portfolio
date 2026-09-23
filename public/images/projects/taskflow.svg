@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="bg-cli" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090a0f" />
+      <stop offset="50%" stop-color="#12131c" />
+      <stop offset="100%" stop-color="#0a0b12" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg-cli)" />
+
+  <g transform="translate(100, 60)">
+    <!-- Terminal Window -->
+    <rect width="1000" height="580" rx="14" fill="#0f111a" stroke="#2a2e3f" stroke-width="1.5" />
+    
+    <!-- Title bar -->
+    <rect width="1000" height="42" rx="14" fill="#171926" />
+    <circle cx="28" cy="21" r="6" fill="#ef4444" />
+    <circle cx="48" cy="21" r="6" fill="#f59e0b" />
+    <circle cx="68" cy="21" r="6" fill="#10b981" />
+    <text x="500" y="26" text-anchor="middle" font-family="monospace" font-size="12" fill="#717a94">developer@macbook-pro: ~/workspace/taskflow</text>
+
+    <!-- Terminal Content Area -->
+    <g transform="translate(30, 70)" font-family="monospace" font-size="13">
+      <text x="0" y="20" fill="#38bdf8">➜  workspace <tspan fill="#f43f5e">git:(main)</tspan> <tspan fill="#f8fafc">taskflow up --environment=staging</tspan></text>
+      
+      <text x="0" y="60" fill="#94a3b8">[1/4] 📦 Resolving monorepo workspace dependencies...</text>
+      <text x="0" y="85" fill="#22c55e">      ✔ 12 packages linked in 420ms (turbo-cached)</text>
+
+      <text x="0" y="125" fill="#94a3b8">[2/4] 🔐 Decrypting team secrets with KMS...</text>
+      <text x="0" y="150" fill="#22c55e">      ✔ Injected .env.staging (sha256: d8f3a9e...)</text>
+
+      <text x="0" y="190" fill="#94a3b8">[3/4] 🐳 Booting isolated Docker container mesh...</text>
+      <text x="0" y="215" fill="#38bdf8">      ● postgres:16-alpine          [PORT 5432]  READY (healthy)</text>
+      <text x="0" y="240" fill="#38bdf8">      ● redis:7-alpine              [PORT 6379]  READY (healthy)</text>
+      <text x="0" y="265" fill="#38bdf8">      ● localstack-s3               [PORT 4566]  READY (healthy)</text>
+
+      <text x="0" y="305" fill="#94a3b8">[4/4] 🚀 Spawning dev server micro-clusters...</text>
+      <text x="0" y="335" fill="#a855f7">      ⚡ web-frontend (Next.js)      → http://localhost:3000</text>
+      <text x="0" y="360" fill="#a855f7">      ⚡ telemetry-api (Fastify)     → http://localhost:4000/graphql</text>
+      <text x="0" y="385" fill="#a855f7">      ⚡ worker-daemon (Node.js)     → listening on queue [telemetry-spans]</text>
+
+      <!-- Success Box -->
+      <rect x="0" y="420" width="940" height="46" rx="8" fill="#14291f" stroke="#16a34a" stroke-width="1" />
+      <text x="20" y="448" fill="#4ade80" font-weight="bold">✨ TaskFlow workspace ready in 4.82s! Press [Ctrl+C] to gracefully freeze stack.</text>
+    </g>
+  </g>
+</svg>

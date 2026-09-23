@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="bg-store" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22" />
+      <stop offset="50%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#022c22" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg-store)" />
+
+  <g transform="translate(80, 60)">
+    <rect width="1040" height="580" rx="16" fill="#061f1b" stroke="#047857" stroke-width="1.5" />
+    
+    <!-- Top Bar -->
+    <path d="M 0 16 C 0 7.163 7.163 0 16 0 L 1024 0 C 1032.837 0 1040 7.163 1040 16 L 1040 50 L 0 50 Z" fill="#021411" />
+    <circle cx="30" cy="25" r="6" fill="#ef4444" />
+    <circle cx="50" cy="25" r="6" fill="#f59e0b" />
+    <circle cx="70" cy="25" r="6" fill="#10b981" />
+    <rect x="120" y="14" width="380" height="22" rx="6" fill="#062e26" stroke="#065f46" stroke-width="1" />
+    <text x="140" y="29" font-family="sans-serif" font-size="11" fill="#6ee7b7">https://nexstore.dev/products/pro-audio-monitor</text>
+
+    <!-- Navigation Header -->
+    <rect x="0" y="50" width="1040" height="60" fill="#04201c" stroke="#064e3b" stroke-width="1" />
+    <text x="40" y="86" font-family="sans-serif" font-size="18" font-weight="bold" fill="#34d399">NexStore™</text>
+    <text x="200" y="85" font-family="sans-serif" font-size="13" fill="#a7f3d0">All Products</text>
+    <text x="310" y="85" font-family="sans-serif" font-size="13" fill="#6ee7b7">Categories</text>
+    <text x="420" y="85" font-family="sans-serif" font-size="13" fill="#6ee7b7">Deals &amp; Bundles</text>
+
+    <!-- Cart Button -->
+    <rect x="900" y="65" width="100" height="32" rx="8" fill="#10b981" />
+    <text x="950" y="85" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#022c22">🛒 Cart (3)</text>
+
+    <!-- Product Showcase -->
+    <g transform="translate(40, 140)">
+      <!-- Left: Big Product Card -->
+      <rect width="460" height="380" rx="14" fill="#03211b" stroke="#059669" stroke-width="1" />
+      <circle cx="230" cy="160" r="90" fill="#10b981" fill-opacity="0.15" />
+      <!-- Minimalist headphone graphic -->
+      <path d="M 160 180 A 70 70 0 0 1 300 180" stroke="#34d399" stroke-width="8" fill="none" stroke-linecap="round" />
+      <rect x="145" y="170" width="30" height="60" rx="10" fill="#10b981" />
+      <rect x="285" y="170" width="30" height="60" rx="10" fill="#10b981" />
+      <text x="230" y="280" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#f0fdf4">AeroPro Studio Headphones</text>
+      <text x="230" y="305" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#a7f3d0">Spatial Audio · Low-Latency Wireless · ANC</text>
+      <text x="230" y="340" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#34d399">$349.00</text>
+    </g>
+
+    <!-- Right: Specs, Checkout & Metrics -->
+    <g transform="translate(540, 140)">
+      <rect width="460" height="380" rx="14" fill="#03211b" stroke="#059669" stroke-width="1" />
+      
+      <!-- Metrics badge -->
+      <rect x="30" y="25" width="400" height="70" rx="10" fill="#021f19" stroke="#047857" stroke-width="1" />
+      <text x="50" y="52" font-family="sans-serif" font-size="12" fill="#6ee7b7" font-weight="bold">⚡ EDGE RENDERED BENCHMARKS</text>
+      <text x="50" y="75" font-family="sans-serif" font-size="12" fill="#f0fdf4">TTFB: <tspan fill="#34d399" font-weight="bold">18ms</tspan> · Lighthouse: <tspan fill="#34d399" font-weight="bold">100/100</tspan> · Stripe Webhook: <tspan fill="#34d399" font-weight="bold">140ms</tspan></text>
+
+      <!-- Instant Checkout Section -->
+      <text x="30" y="130" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f0fdf4">Express 1-Click Checkout</text>
+      <rect x="30" y="145" width="400" height="42" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="230" y="171" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#f8fafc">Pay with Apple Pay / Google Pay</text>
+
+      <rect x="30" y="200" width="400" height="42" rx="8" fill="#047857" />
+      <text x="230" y="226" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ecfdf5">Pay with Card (Stripe Elements)</text>
+
+      <!-- Order Summary details -->
+      <g transform="translate(30, 265)">
+        <text x="0" y="15" font-family="sans-serif" font-size="12" fill="#94a3b8">Subtotal</text>
+        <text x="400" y="15" text-anchor="end" font-family="sans-serif" font-size="12" fill="#f8fafc">$349.00</text>
+        <text x="0" y="40" font-family="sans-serif" font-size="12" fill="#94a3b8">Express Shipping</text>
+        <text x="400" y="40" text-anchor="end" font-family="sans-serif" font-size="12" fill="#34d399">FREE</text>
+        <line x1="0" y1="55" x2="400" y2="55" stroke="#047857" stroke-width="1" />
+        <text x="0" y="78" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f0fdf4">Total Charged</text>
+        <text x="400" y="78" text-anchor="end" font-family="sans-serif" font-size="15" font-weight="bold" fill="#34d399">$349.00</text>
+      </g>
+    </g>
+  </g>
+</svg>

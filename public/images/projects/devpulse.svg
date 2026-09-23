@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="700" fill="url(#bg-grad)" />
+  
+  <!-- Subtle Grid -->
+  <g opacity="0.12" stroke="#64748b" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="700" />
+    <line x1="300" y1="0" x2="300" y2="700" />
+    <line x1="500" y1="0" x2="500" y2="700" />
+    <line x1="700" y1="0" x2="700" y2="700" />
+    <line x1="900" y1="0" x2="900" y2="700" />
+    <line x1="1100" y1="0" x2="1100" y2="700" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="560" x2="1200" y2="560" />
+  </g>
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="250" cy="180" r="140" fill="#3b82f6" opacity="0.15" filter="url(#glow)" />
+  <circle cx="950" cy="480" r="160" fill="#8b5cf6" opacity="0.15" filter="url(#glow)" />
+
+  <!-- Mock Browser Window Container -->
+  <g transform="translate(80, 60)">
+    <!-- Window Frame -->
+    <rect width="1040" height="580" rx="16" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.5" />
+    
+    <!-- Top Bar -->
+    <path d="M 0 16 C 0 7.163 7.163 0 16 0 L 1024 0 C 1032.837 0 1040 7.163 1040 16 L 1040 50 L 0 50 Z" fill="#0f172a" />
+    <circle cx="30" cy="25" r="6" fill="#ef4444" />
+    <circle cx="50" cy="25" r="6" fill="#f59e0b" />
+    <circle cx="70" cy="25" r="6" fill="#10b981" />
+    
+    <!-- Search / URL Bar -->
+    <rect x="120" y="14" width="400" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="140" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="11" fill="#94a3b8">https://devpulse.io/dashboard/velocity-metrics</text>
+    <rect x="940" y="15" width="70" height="20" rx="4" fill="#06b6d4" fill-opacity="0.2" />
+    <text x="955" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="10" font-weight="bold" fill="#38bdf8">LIVE SYNC</text>
+
+    <!-- Sidebar -->
+    <rect x="0" y="50" width="200" height="530" fill="#0b1120" fill-opacity="0.7" stroke="#334155" stroke-width="1" />
+    <text x="25" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="14" font-weight="bold" fill="#f8fafc">DevPulse Core</text>
+    
+    <!-- Sidebar Items -->
+    <rect x="15" y="115" width="170" height="32" rx="6" fill="#1e293b" stroke="#3b82f6" stroke-width="1" />
+    <text x="45" y="136" font-family="sans-serif" font-size="12" fill="#38bdf8" font-weight="600">Engineering Health</text>
+    
+    <text x="45" y="180" font-family="sans-serif" font-size="12" fill="#94a3b8">DORA Velocity</text>
+    <text x="45" y="220" font-family="sans-serif" font-size="12" fill="#94a3b8">Git Traces</text>
+    <text x="45" y="260" font-family="sans-serif" font-size="12" fill="#94a3b8">Production Logs</text>
+    <text x="45" y="300" font-family="sans-serif" font-size="12" fill="#94a3b8">Incident Routing</text>
+    <text x="45" y="340" font-family="sans-serif" font-size="12" fill="#94a3b8">Cluster Status</text>
+
+    <!-- Main Content Area -->
+    <!-- Metric Stat Cards -->
+    <g transform="translate(230, 80)">
+      <!-- Card 1 -->
+      <rect x="0" y="0" width="240" height="95" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="18" y="28" font-family="sans-serif" font-size="11" fill="#94a3b8" font-weight="500">QUERY LATENCY (P99)</text>
+      <text x="18" y="62" font-family="sans-serif" font-size="28" fill="#38bdf8" font-weight="bold">38 ms</text>
+      <text x="18" y="82" font-family="sans-serif" font-size="10" fill="#10b981">↓ 24% vs last week (edge cached)</text>
+
+      <!-- Card 2 -->
+      <rect x="260" y="0" width="240" height="95" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="278" y="28" font-family="sans-serif" font-size="11" fill="#94a3b8" font-weight="500">DEPLOYMENT FREQUENCY</text>
+      <text x="278" y="62" font-family="sans-serif" font-size="28" fill="#f8fafc" font-weight="bold">18.4 / day</text>
+      <text x="278" y="82" font-family="sans-serif" font-size="10" fill="#10b981">↑ Elite DORA Performer</text>
+
+      <!-- Card 3 -->
+      <rect x="520" y="0" width="240" height="95" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="538" y="28" font-family="sans-serif" font-size="11" fill="#94a3b8" font-weight="500">ACTIVE SPANS PROCESSED</text>
+      <text x="538" y="62" font-family="sans-serif" font-size="28" fill="#a855f7" font-weight="bold">3,542,910</text>
+      <text x="538" y="82" font-family="sans-serif" font-size="10" fill="#94a3b8">Zero data-loss telemetry buffer</text>
+    </g>
+
+    <!-- Main Big Chart Area -->
+    <g transform="translate(230, 200)">
+      <rect x="0" y="0" width="760" height="320" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="25" y="35" font-family="sans-serif" font-size="14" fill="#f8fafc" font-weight="bold">Continuous Delivery Throughput &amp; Lead Time</text>
+      <text x="25" y="55" font-family="sans-serif" font-size="11" fill="#94a3b8">30-day moving average of pull request merge-to-deploy duration</text>
+
+      <!-- Chart Grid Lines -->
+      <line x1="25" y1="90" x2="735" y2="90" stroke="#1e293b" stroke-width="1" />
+      <line x1="25" y1="140" x2="735" y2="140" stroke="#1e293b" stroke-width="1" />
+      <line x1="25" y1="190" x2="735" y2="190" stroke="#1e293b" stroke-width="1" />
+      <line x1="25" y1="240" x2="735" y2="240" stroke="#1e293b" stroke-width="1" />
+
+      <!-- Area Gradient Fill -->
+      <path d="M 30 230 Q 120 210, 200 160 T 380 140 T 520 80 T 650 110 T 730 60 L 730 260 L 30 260 Z" fill="url(#line-grad)" opacity="0.4" />
+      
+      <!-- Primary Pulse Stroke -->
+      <path d="M 30 230 Q 120 210, 200 160 T 380 140 T 520 80 T 650 110 T 730 60" fill="none" stroke="#06b6d4" stroke-width="3.5" />
+      <path d="M 30 250 Q 120 240, 200 210 T 380 190 T 520 150 T 650 170 T 730 130" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="4 4" />
+
+      <!-- Highlighting Node on Peak -->
+      <circle cx="520" cy="80" r="7" fill="#38bdf8" />
+      <circle cx="520" cy="80" r="14" fill="#38bdf8" opacity="0.3" />
+      <rect x="470" y="30" width="100" height="36" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+      <text x="485" y="47" font-family="sans-serif" font-size="10" fill="#94a3b8">Throughput</text>
+      <text x="485" y="60" font-family="sans-serif" font-size="11" fill="#38bdf8" font-weight="bold">+142% Peak</text>
+
+      <!-- Time axis labels -->
+      <text x="35" y="280" font-family="sans-serif" font-size="10" fill="#64748b">Oct 01</text>
+      <text x="175" y="280" font-family="sans-serif" font-size="10" fill="#64748b">Oct 08</text>
+      <text x="325" y="280" font-family="sans-serif" font-size="10" fill="#64748b">Oct 15</text>
+      <text x="475" y="280" font-family="sans-serif" font-size="10" fill="#64748b">Oct 22</text>
+      <text x="625" y="280" font-family="sans-serif" font-size="10" fill="#64748b">Oct 29</text>
+      <text x="705" y="280" font-family="sans-serif" font-size="10" fill="#64748b">Today</text>
+    </g>
+  </g>
+</svg>

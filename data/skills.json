@@ -1,0 +1,56 @@
+[
+  {
+    "category": "Frontend & Mobile",
+    "skills": [
+      { "name": "React.js", "level": "Expert", "icon": "Code2", "featured": true },
+      { "name": "React Native", "level": "Advanced", "icon": "Layers", "featured": true },
+      { "name": "TypeScript", "level": "Advanced", "icon": "FileCode", "featured": true },
+      { "name": "JavaScript (ES6+)", "level": "Expert", "icon": "Sparkles", "featured": true },
+      { "name": "Tailwind CSS", "level": "Expert", "icon": "Palette", "featured": true },
+      { "name": "Expo", "level": "Advanced", "icon": "Box", "featured": true },
+      { "name": "HTML5 & CSS3", "level": "Expert", "icon": "Layout", "featured": false },
+      { "name": "Bootstrap", "level": "Advanced", "icon": "Palette", "featured": false }
+    ]
+  },
+  {
+    "category": "Backend & APIs",
+    "skills": [
+      { "name": "Node.js", "level": "Advanced", "icon": "Server", "featured": true },
+      { "name": "Express.js", "level": "Advanced", "icon": "Terminal", "featured": true },
+      { "name": "PHP", "level": "Advanced", "icon": "Binary", "featured": true },
+      { "name": "REST APIs & Integration", "level": "Expert", "icon": "Network", "featured": true },
+      { "name": "Authentication & CRUD", "level": "Advanced", "icon": "ShieldCheck", "featured": true },
+      { "name": "Firebase", "level": "Advanced", "icon": "Cloud", "featured": false },
+      { "name": "Python", "level": "Intermediate", "icon": "Code2", "featured": false }
+    ]
+  },
+  {
+    "category": "Databases & Management",
+    "skills": [
+      { "name": "MySQL", "level": "Advanced", "icon": "Database", "featured": true },
+      { "name": "JSON & State Management", "level": "Expert", "icon": "Cpu", "featured": true },
+      { "name": "PostgreSQL", "level": "Intermediate", "icon": "Database", "featured": false },
+      { "name": "Database Design & CRUD", "level": "Advanced", "icon": "CheckCircle2", "featured": false }
+    ]
+  },
+  {
+    "category": "Tools, IT & Administration",
+    "skills": [
+      { "name": "Git & GitHub", "level": "Expert", "icon": "GitBranch", "featured": true },
+      { "name": "Network Administration", "level": "Advanced", "icon": "Network", "featured": true },
+      { "name": "Hardware & IT Equipment", "level": "Expert", "icon": "Server", "featured": true },
+      { "name": "Microsoft Office Suite", "level": "Expert", "icon": "Layout", "featured": false },
+      { "name": "Irembo Government Services", "level": "Expert", "icon": "CheckCheck", "featured": false }
+    ]
+  },
+  {
+    "category": "Design & Principles",
+    "skills": [
+      { "name": "Responsive Web Design", "level": "Expert", "icon": "Eye", "featured": true },
+      { "name": "UI/UX Design", "level": "Advanced", "icon": "Palette", "featured": true },
+      { "name": "Graphic Design", "level": "Advanced", "icon": "Sparkles", "featured": false },
+      { "name": "SEO Optimization", "level": "Advanced", "icon": "GaugeCircle", "featured": true },
+      { "name": "Driving (Category B)", "level": "Advanced", "icon": "Compass", "featured": false }
+    ]
+  }
+]

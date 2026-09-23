@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="bg-arch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="box-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="glow-edge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg-arch)" />
+  
+  <text x="600" y="80" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#f8fafc">DevPulse Distributed Architecture Diagram</text>
+  <text x="600" y="110" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#94a3b8">Sub-second telemetry ingestion pipeline with edge proxy caching</text>
+
+  <!-- Connectors -->
+  <g stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 6" fill="none" opacity="0.6">
+    <path d="M 230 350 L 370 350" />
+    <path d="M 570 350 L 710 260" />
+    <path d="M 570 350 L 710 440" />
+    <path d="M 910 260 L 1000 350" />
+    <path d="M 910 440 L 1000 350" />
+  </g>
+
+  <!-- Stage 1: Sources -->
+  <g transform="translate(60, 260)">
+    <rect width="170" height="180" rx="12" fill="url(#box-grad)" stroke="#334155" stroke-width="1.5" />
+    <circle cx="85" cy="45" r="22" fill="#0284c7" fill-opacity="0.2" />
+    <text x="85" y="52" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#38bdf8">⚡</text>
+    <text x="85" y="95" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">Telemetry Sources</text>
+    <text x="85" y="125" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">• GitHub Webhooks</text>
+    <text x="85" y="145" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">• OpenTelemetry Spans</text>
+    <text x="85" y="165" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">• Kubernetes Logs</text>
+  </g>
+
+  <!-- Stage 2: Ingestion & Buffer -->
+  <g transform="translate(370, 260)">
+    <rect width="200" height="180" rx="12" fill="url(#box-grad)" stroke="#0284c7" stroke-width="2" />
+    <circle cx="100" cy="45" r="22" fill="#0284c7" fill-opacity="0.2" />
+    <text x="100" y="52" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#38bdf8">🛡️</text>
+    <text x="100" y="95" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">Edge Ingestion</text>
+    <text x="100" y="120" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#38bdf8">Cloudflare Workers</text>
+    <text x="100" y="145" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">+ Upstash Redis Queue</text>
+    <text x="100" y="165" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#10b981">Zero packet drop buffer</text>
+  </g>
+
+  <!-- Stage 3A: Storage -->
+  <g transform="translate(710, 170)">
+    <rect width="200" height="170" rx="12" fill="url(#box-grad)" stroke="#334155" stroke-width="1.5" />
+    <circle cx="100" cy="40" r="20" fill="#6366f1" fill-opacity="0.2" />
+    <text x="100" y="46" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#818cf8">💾</text>
+    <text x="100" y="85" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#f8fafc">Primary Storage</text>
+    <text x="100" y="110" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">PostgreSQL (Neon)</text>
+    <text x="100" y="130" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">TimescaleDB Partitions</text>
+    <text x="100" y="150" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#a855f7">Prisma Accelerated</text>
+  </g>
+
+  <!-- Stage 3B: Real-time Stream -->
+  <g transform="translate(710, 360)">
+    <rect width="200" height="170" rx="12" fill="url(#box-grad)" stroke="#334155" stroke-width="1.5" />
+    <circle cx="100" cy="40" r="20" fill="#ec4899" fill-opacity="0.2" />
+    <text x="100" y="46" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#f43f5e">📡</text>
+    <text x="100" y="85" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#f8fafc">Streaming Pub/Sub</text>
+    <text x="100" y="110" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">Redis PubSub Channels</text>
+    <text x="100" y="130" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">SSE Edge Fan-out</text>
+    <text x="100" y="150" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#10b981">&lt;50ms Delivery</text>
+  </g>
+
+  <!-- Stage 4: Frontend App Router -->
+  <g transform="translate(1000, 260)">
+    <rect width="160" height="180" rx="12" fill="url(#box-grad)" stroke="#10b981" stroke-width="2" />
+    <circle cx="80" cy="45" r="22" fill="#10b981" fill-opacity="0.2" />
+    <text x="80" y="52" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#10b981">💻</text>
+    <text x="80" y="95" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#f8fafc">Next.js 15 UI</text>
+    <text x="80" y="125" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">• React 19 RSC</text>
+    <text x="80" y="145" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">• Tailwind CSS v4</text>
+    <text x="80" y="165" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#38bdf8">Interactive SVG Canvas</text>
+  </g>
+</svg>

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "1",
+    "slug": "open-source-kigali",
+    "title": "Open Source Kigali (OSK Frontend)",
+    "tagline": "The official website for Open Source Kigali — Rwanda's growing open-source developer community.",
+    "shortDescription": "Community portal showcasing developer events, hackathons, open-source projects, and contributor onboarding for Rwanda's tech talent.",
+    "thumbnail": "/images/projects/osk-hero.jpeg",
+    "featured": true,
+    "tags": ["React", "TypeScript", "Vite", "Tailwind CSS", "Open Source"],
+    "githubUrl": "https://github.com/Mustivo/osk-frontend",
+    "liveUrl": "https://github.com/Mustivo/osk-frontend",
+    "date": "2024 - Present",
+    "problemStatement": "The developer community in Kigali needed a centralized, modern web platform to announce technical meetups, onboard new contributors, showcase local open-source software, and foster active collaboration among Rwandan programmers.",
+    "role": "Frontend Developer & Contributor — Engineered the user interface, responsive layout, event highlight sections, and contributor showcase using Vite, React, and TypeScript.",
+    "architecture": "Built with Vite and React using TypeScript in strict mode for strong type safety and rapid builds. Styled with Tailwind CSS for high-contrast accessibility across both mobile and desktop screens. Deployed with automated CI workflows via GitHub Actions.",
+    "metrics": [
+      { "label": "Community Members", "value": "500+" },
+      { "label": "Build Time", "value": "<1.5s" },
+      { "label": "Events Showcased", "value": "20+" },
+      { "label": "Mobile Score", "value": "99/100" }
+    ],
+    "features": [
+      "Dynamic meetup announcements and interactive event schedules",
+      "Community member onboarding directory and contributor highlight reel",
+      "Responsive navigation drawer tailored for smartphone browsing",
+      "Partnership and workshop showcase with official OSK branding"
+    ],
+    "screenshots": [
+      {
+        "url": "/images/projects/osk-hero.jpeg",
+        "caption": "Official Open Source Kigali hero banner and platform overview taken from Mustivo/osk-frontend."
+      },
+      {
+        "url": "/images/projects/osk-meetup.jpg",
+        "caption": "Open Source Kigali youth meetup in Kigali, empowering local developer talent."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "osk-backend-api",
+    "title": "OSK Backend API Service",
+    "tagline": "Containerized REST API powering the Open Source Kigali community website and membership workflows.",
+    "shortDescription": "High-availability backend service built with Node.js, Express, TypeScript, Prisma ORM, and PostgreSQL, containerized with Docker.",
+    "thumbnail": "/images/projects/osk-logo.svg",
+    "featured": true,
+    "tags": ["Node.js", "Express.js", "TypeScript", "Prisma", "PostgreSQL", "Docker"],
+    "githubUrl": "https://github.com/Mustivo/osk-backend",
+    "liveUrl": "https://github.com/Mustivo/osk-backend",
+    "date": "2024 - Present",
+    "problemStatement": "The Open Source Kigali platform required a reliable, decoupled REST API to manage attendee registrations, community contributors, event calendars, and Cloudinary media assets with robust database migrations.",
+    "role": "Backend Engineer — Implemented Express routes, Prisma schema definitions, PostgreSQL relationships, and Docker orchestration.",
+    "architecture": "Engineered in TypeScript on Node.js using Express with Prisma ORM connecting to PostgreSQL. Includes OpenAPI Swagger documentation, Vitest test suites, and Docker Compose for instant reproducible development environments.",
+    "metrics": [
+      { "label": "Database Engine", "value": "PostgreSQL" },
+      { "label": "ORM Layer", "value": "Prisma" },
+      { "label": "Containerization", "value": "Docker Compose" },
+      { "label": "API Standard", "value": "OpenAPI / Swagger" }
+    ],
+    "features": [
+      "Type-safe database models for events, users, and community contributions",
+      "Docker Compose environment setup for database and application containers",
+      "Interactive Swagger UI API documentation",
+      "Vitest automated unit and integration testing suite"
+    ],
+    "screenshots": [
+      {
+        "url": "/images/projects/osk-logo.svg",
+        "caption": "Open Source Kigali official logo taken from the community repository assets."
+      },
+      {
+        "url": "/images/projects/devpulse-architecture.svg",
+        "caption": "Decoupled frontend-backend API microservice architecture diagram."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "movie-application",
+    "title": "MovieApplication (Expo & React Native)",
+    "tagline": "Cross-platform mobile movie application built with React Native and Expo.",
+    "shortDescription": "Mobile app featuring movie discovery, category browsing, trailer previews, and watchlists developed during the Solvit Africa fellowship.",
+    "thumbnail": "/images/projects/movie-app.png",
+    "featured": true,
+    "tags": ["React Native", "Expo", "TypeScript", "JavaScript", "Mobile App"],
+    "githubUrl": "https://github.com/Mustivo/MovieApplication",
+    "liveUrl": "https://github.com/Mustivo/MovieApplication",
+    "date": "2024",
+    "problemStatement": "Movie enthusiasts needed a smooth, lightweight cross-platform mobile application to discover trending movies, view ratings, explore casts, and manage their personal watchlists seamlessly on Android and iOS.",
+    "role": "Mobile Developer — Built reusable React Native components, navigation flows, state management, and API data consumers.",
+    "architecture": "Developed using Expo and React Native with TypeScript. Utilizes Expo Router for navigation, responsive card layouts, and asynchronous REST API integration for real-time cinema catalogs.",
+    "metrics": [
+      { "label": "Framework", "value": "Expo & React Native" },
+      { "label": "Target Platforms", "value": "Android & iOS" },
+      { "label": "Language", "value": "TypeScript" },
+      { "label": "State Management", "value": "React Hooks" }
+    ],
+    "features": [
+      "Cross-platform support for Android and iOS using Expo",
+      "Reusable UI components with fluid touch feedback and card animations",
+      "Movie search with real-time filtering and category sliders",
+      "Navigation stack handling movie detail pages and trailer views"
+    ],
+    "screenshots": [
+      {
+        "url": "/images/projects/movie-app.png",
+        "caption": "Mobile app interface and tutorial asset taken directly from Mustivo/MovieApplication."
+      },
+      {
+        "url": "/images/projects/movie-icon.png",
+        "caption": "Official application icon and branding from Mustivo/MovieApplication."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "citizen-engagement",
+    "title": "Citizen Engagement & Feedback Portal",
+    "tagline": "Civic reporting web portal for citizens to submit feedback and track resolution status.",
+    "shortDescription": "Full-stack PHP and MySQL platform allowing citizens and customers to submit complaints, attach inquiries, and track administrative responses.",
+    "thumbnail": "/images/projects/pulsemesh.svg",
+    "featured": false,
+    "tags": ["PHP", "MySQL", "Bootstrap", "JavaScript", "Civic Tech"],
+    "githubUrl": "https://github.com/Mustivo/Citizen-engagment",
+    "liveUrl": "https://github.com/Mustivo/Citizen-engagment",
+    "date": "2023 - 2024",
+    "problemStatement": "Citizens and customers lacked an accessible digital platform to submit feedback or complaints regarding local services and follow up on the resolution progress in a transparent manner.",
+    "role": "Full Stack Developer — Created the submission forms, database connection layer, response tracking pages, and administrative dashboard.",
+    "architecture": "Constructed with PHP connecting to a relational MySQL database. Employs Bootstrap for mobile-friendly input forms, status verification scripts (`status.php`), and admin dashboards (`admin/dashboard.php`).",
+    "metrics": [
+      { "label": "Backend", "value": "PHP 8.x" },
+      { "label": "Database", "value": "MySQL" },
+      { "label": "CSS Framework", "value": "Bootstrap" },
+      { "label": "Status Tracking", "value": "Live Database" }
+    ],
+    "features": [
+      "User feedback and complaint submission form with field validation",
+      "Real-time complaint status tracking page via unique ticket IDs",
+      "Administrative dashboard to review, update, and resolve submitted issues",
+      "Responsive layout accessible on mobile devices and public internet terminals"
+    ],
+    "screenshots": [
+      {
+        "url": "/images/projects/pulsemesh.svg",
+        "caption": "Complaint submission and resolution tracking workflow for Citizen Engagement."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "stivo-maize-management",
+    "title": "Stivo Maize & Crop Management System",
+    "tagline": "Agricultural web system for tracking maize crop production, inventory, and sales records.",
+    "shortDescription": "PHP & MySQL web application enabling farmers and inventory managers to insert, view, update, and manage maize agricultural yields.",
+    "thumbnail": "/images/projects/stivo-maize2.jpg",
+    "featured": false,
+    "tags": ["PHP", "MySQL", "CSS", "CRUD Operations", "Agriculture"],
+    "githubUrl": "https://github.com/Mustivo/stivo",
+    "liveUrl": "https://github.com/Mustivo/stivo",
+    "date": "2023",
+    "problemStatement": "Agricultural producers struggled with paper-based records for maize harvests, stock changes, and distribution sales, resulting in inventory discrepancies and lost revenue.",
+    "role": "Full Stack Developer — Designed the database schemas, user authentication (login/signup), and complete CRUD operations for maize records.",
+    "architecture": "Built with PHP and MySQL utilizing dedicated endpoints for data insertion (`insertmaiz.php`), records retrieval (`selectmaize.php`), updates (`up.php`), and deletion (`deletemaize.php`), backed by custom CSS styling.",
+    "metrics": [
+      { "label": "Architecture", "value": "PHP CRUD" },
+      { "label": "Database", "value": "MySQL" },
+      { "label": "Authentication", "value": "Session Auth" },
+      { "label": "Domain", "value": "AgriTech" }
+    ],
+    "features": [
+      "Complete CRUD capabilities for recording harvested maize yields and inventory levels",
+      "User authentication module with secure login, signup, and logout workflows",
+      "Clean tabular summary displaying current stock and historical records",
+      "Lightweight architecture requiring minimal bandwidth in rural settings"
+    ],
+    "screenshots": [
+      {
+        "url": "/images/projects/stivo-maize2.jpg",
+        "caption": "Maize crop and agricultural tracking photo from Mustivo/stivo."
+      },
+      {
+        "url": "/images/projects/stivo-maize1.jpg",
+        "caption": "Crop harvest inspection image taken from Mustivo/stivo."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "zorashop-rwanda",
+    "title": "ZoraShop Rwanda - Online Marketplace",
+    "tagline": "Consumer e-commerce platform built for Rwandan shoppers with localized product discovery.",
+    "shortDescription": "Responsive online retail platform featuring categorized product catalogs, shopping cart management, and streamlined checkout.",
+    "thumbnail": "/images/projects/nexstore.svg",
+    "featured": true,
+    "tags": ["Web Development", "E-Commerce", "JavaScript", "Tailwind CSS", "PHP"],
+    "githubUrl": "https://github.com/Mustivo",
+    "liveUrl": "https://zorashoprwanda.infinityfreeapp.com/",
+    "date": "2024",
+    "problemStatement": "Rwandan consumers needed a fast, accessible digital retail site allowing them to browse products, view details in Rwandan Francs (RWF), and place orders with minimal data consumption.",
+    "role": "Creator & Lead Developer — Created the digital storefront, catalog structure, cart state, and order messaging system.",
+    "architecture": "Optimized responsive web platform built for high speed and accessibility over mobile networks, deployed at zorashoprwanda.infinityfreeapp.com.",
+    "metrics": [
+      { "label": "Live Platform", "value": "Active" },
+      { "label": "Checkout Time", "value": "<45s" },
+      { "label": "Mobile Friendly", "value": "100%" },
+      { "label": "Lighthouse Score", "value": "98/100" }
+    ],
+    "features": [
+      "Instant product discovery across consumer and tech categories",
+      "Shopping cart with real-time total calculation",
+      "Mobile-optimized browsing designed for Rwandan smartphone users",
+      "Direct ordering integration and contact options"
+    ],
+    "screenshots": [
+      {
+        "url": "/images/projects/nexstore.svg",
+        "caption": "ZoraShop Rwanda storefront UI and product catalog layout."
+      }
+    ]
+  }
+]
