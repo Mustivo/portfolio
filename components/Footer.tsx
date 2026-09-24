@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, Heart, ArrowUpRight, Phone } from "lucide-react";
+import { Mail, ArrowUpRight, Phone } from "lucide-react";
 import { GithubIcon, LinkedinIcon, WhatsAppIcon } from "@/components/Icons";
 
 export function Footer() {
@@ -177,8 +177,8 @@ export function Footer() {
         {/* Bottom copyright line */}
         <div className="pt-8 mt-8 border-t border-slate-200 dark:border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
           <p>© {currentYear} Mwizerwa Steven. All rights reserved.</p>
-          <p className="flex items-center gap-1">
-            Kigali, Rwanda · Phone: +250 786974250 · stevenmwizerwa1@gmail.com <Heart className="w-3 h-3 text-rose-500 fill-rose-500 inline" />
+          <p>
+            Kigali, Rwanda · Phone: +250 786974250 · stevenmwizerwa1@gmail.com
           </p>
         </div>
       </div>
