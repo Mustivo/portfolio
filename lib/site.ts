@@ -22,6 +22,6 @@ export const siteConfig = {
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
       : process.env.VERCEL_URL
       ? `https://${process.env.VERCEL_URL}`
-      : "https://portfolio-plum-three-75zswshc8l.vercel.app"),
+      : "https://mwizerwa-stiven.vercel.app"),
   googleVerification: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || "",
 };
