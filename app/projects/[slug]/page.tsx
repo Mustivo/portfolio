@@ -21,6 +21,7 @@ import {
   TrendingUp,
 } from "lucide-react";
 import { GithubIcon } from "@/components/Icons";
+import { ProjectJsonLd } from "@/components/JsonLd";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -44,11 +45,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${project.title} | Mwizerwa Stiven`,
+    title: project.title,
     description: project.shortDescription,
+    alternates: {
+      canonical: `/projects/${project.slug}`,
+    },
     openGraph: {
-      title: `${project.title} | Mwizerwa Stiven`,
+      title: `${project.title} | Mwizerwa Steven`,
       description: project.shortDescription,
+      url: `/projects/${project.slug}`,
       images: [
         {
           url: project.thumbnail,
@@ -57,6 +62,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           alt: project.title,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${project.title} | Mwizerwa Steven`,
+      description: project.shortDescription,
+      images: [project.thumbnail],
     },
   };
 }
@@ -73,6 +84,7 @@ export default async function ProjectDetailPage({ params }: Props) {
 
   return (
     <div className="max-w-[1400px] w-full mx-auto px-3 sm:px-5 lg:px-8 py-10 lg:py-16 space-y-12">
+      <ProjectJsonLd project={project} />
       {/* Back to all projects link */}
       <div>
         <Link

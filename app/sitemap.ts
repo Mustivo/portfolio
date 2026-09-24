@@ -1,15 +1,16 @@
 import { MetadataRoute } from "next";
 import { getAllProjects } from "@/lib/projects";
+import { siteConfig } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://alexmorgan-portfolio.vercel.app";
+  const baseUrl = siteConfig.siteUrl.replace(/\/+$/, "");
   const projects = getAllProjects();
 
   const projectRoutes = projects.map((project) => ({
     url: `${baseUrl}/projects/${project.slug}`,
     lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
+    changeFrequency: "weekly" as const,
+    priority: 0.85,
   }));
 
   const staticRoutes = [
@@ -34,8 +35,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/contact`,
       lastModified: new Date(),
-      changeFrequency: "yearly" as const,
-      priority: 0.7,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
     },
   ];
 

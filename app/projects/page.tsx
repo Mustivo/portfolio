@@ -5,9 +5,12 @@ import { ProjectsGallery } from "@/components/ProjectsGallery";
 import { Sparkles } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Projects & Applications | Mwizerwa Stiven",
+  title: "Projects & Applications",
   description:
-    "Explore full-stack web applications, the Bright Vision educational platform, and Rwandan e-commerce platforms built by Mwizerwa Stiven (@Mustivo).",
+    "Explore full-stack web applications, the Bright Vision educational platform, and digital systems built by Mwizerwa Steven (@Mustivo) in Kigali, Rwanda.",
+  alternates: {
+    canonical: "/projects",
+  },
 };
 
 export default function ProjectsPage() {

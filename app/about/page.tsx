@@ -22,9 +22,12 @@ import { GithubIcon, WhatsAppIcon } from "@/components/Icons";
 import { ResumeDocument } from "@/components/ResumeDocument";
 
 export const metadata: Metadata = {
-  title: "About Mwizerwa Steven | IT Engineer & Developer",
+  title: "About & Experience",
   description:
-    "Curriculum Vitae and background of Mwizerwa Steven — IT Engineer & Software Developer from Kigali, Rwanda. Mount Kigali University, Open Source Kigali, and Solvit Africa Fellow.",
+    "Curriculum Vitae and background of Mwizerwa Steven (Stiven) — IT Engineer & Software Developer from Kigali, Rwanda. Education, technical experience, and full skill catalog.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 const CAREER_TIMELINE = [

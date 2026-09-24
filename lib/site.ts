@@ -1,10 +1,11 @@
 /**
  * Centralized site configuration populated from secure environment variables (.env)
- * with reliable fallbacks.
+ * and Vercel system variables with reliable production fallbacks.
  */
 export const siteConfig = {
   name: process.env.NEXT_PUBLIC_AUTHOR_NAME || "Mwizerwa Steven",
-  title: process.env.NEXT_PUBLIC_TITLE || "IT Engineer & Software Developer",
+  alternateNames: ["Mwizerwa Stiven", "Mustivo", "Steven Mwizerwa"],
+  title: process.env.NEXT_PUBLIC_TITLE || "IT Engineer & Full-Stack Developer",
   email: process.env.NEXT_PUBLIC_EMAIL || "stevenmwizerwa1@gmail.com",
   phone: process.env.NEXT_PUBLIC_PHONE || "+250786974250",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "250786974250",
@@ -15,5 +16,12 @@ export const siteConfig = {
     process.env.NEXT_PUBLIC_LINKEDIN_URL ||
     "https://www.linkedin.com/in/mwizerwa-stiven-b7b5743a5/",
   formspreeKey: process.env.NEXT_PUBLIC_FORMSPREE_KEY || "",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+  siteUrl:
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "https://portfolio-plum-three-75zswshc8l.vercel.app"),
+  googleVerification: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || "",
 };

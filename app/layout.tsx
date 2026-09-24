@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { PersonJsonLd } from "@/components/JsonLd";
+import { siteConfig } from "@/lib/site";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,54 +18,78 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://github.com/Mustivo"),
+  metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: "Mwizerwa Stiven | Software & Web Developer",
-    template: "%s | Mwizerwa Stiven",
+    default: `${siteConfig.name} (Stiven) | ${siteConfig.title}`,
+    template: `%s | ${siteConfig.name}`,
   },
   description:
-    "Personal portfolio of Mwizerwa Stiven (Mustivo) — Software & Web Developer from Kigali, Rwanda. Contributor to Open Source Kigali, builder of ZoraShop, InzuHub, and civic platforms.",
+    "Official portfolio of Mwizerwa Steven (Mwizerwa Stiven / Mustivo) — IT Engineer & Full-Stack Web Developer based in Kigali, Rwanda. Specialist in modern web architecture, Next.js, React, Node.js, and cloud systems.",
   keywords: [
+    "Mwizerwa Steven",
     "Mwizerwa Stiven",
     "Mustivo",
+    "Steven Mwizerwa",
+    "Stiven Mwizerwa",
+    "IT Engineer Rwanda",
+    "IT Engineer Kigali",
     "Software Developer Rwanda",
-    "Web Developer Kigali",
-    "Next.js Developer",
-    "React Developer",
-    "TypeScript",
-    "Tailwind CSS",
-    "Open Source Kigali",
+    "Full Stack Developer Kigali",
+    "Web Developer Rwanda",
+    "Next.js Developer Kigali",
+    "React Developer Rwanda",
+    "TypeScript Developer Rwanda",
+    "InzuHub",
+    "ZoraShop",
+    "Bright Vision Training Center",
+    "Software Engineer Kigali Rwanda",
+    "Portfolio Mwizerwa Steven",
+    "Mwizerwa Portfolio",
   ],
-  authors: [{ name: "Mwizerwa Stiven", url: "https://github.com/Mustivo" }],
-  creator: "Mwizerwa Stiven",
+  authors: [{ name: siteConfig.name, url: siteConfig.siteUrl }],
+  creator: siteConfig.name,
+  publisher: siteConfig.name,
+  alternates: {
+    canonical: "./",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://github.com/Mustivo",
-    siteName: "Mwizerwa Stiven Portfolio",
-    title: "Mwizerwa Stiven | Software & Web Developer",
+    url: siteConfig.siteUrl,
+    siteName: `${siteConfig.name} Portfolio`,
+    title: `${siteConfig.name} | ${siteConfig.title}`,
     description:
-      "Explore software engineering projects, Open Source Kigali initiatives, and web architectures built by Mwizerwa Stiven.",
+      "Explore software engineering projects, web architectures, and IT systems built by Mwizerwa Steven (Kigali, Rwanda).",
     images: [
       {
         url: "/images/avatar.jpg",
-        width: 400,
-        height: 400,
-        alt: "Mwizerwa Stiven - Software Developer",
+        width: 800,
+        height: 800,
+        alt: `${siteConfig.name} - ${siteConfig.title}`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mwizerwa Stiven | Software & Web Developer",
+    title: `${siteConfig.name} | ${siteConfig.title}`,
     description:
-      "Explore software engineering projects, Open Source Kigali initiatives, and web architectures built by Mwizerwa Stiven.",
+      "Explore software engineering projects, web architectures, and IT systems built by Mwizerwa Steven (Kigali, Rwanda).",
     images: ["/images/avatar.jpg"],
     creator: "@Mustivo",
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: siteConfig.googleVerification || undefined,
   },
 };
 
@@ -76,6 +102,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="dark">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <PersonJsonLd />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex flex-col antialiased selection:bg-sky-500/20 selection:text-sky-600 dark:selection:text-sky-300`}

@@ -13,9 +13,12 @@ import {
 import { GithubIcon, LinkedinIcon, WhatsAppIcon } from "@/components/Icons";
 
 export const metadata: Metadata = {
-  title: "Contact & Inquiries | Mwizerwa Steven",
+  title: "Contact & Inquiries",
   description:
     "Get in touch with Mwizerwa Steven — IT Engineer & Software Developer in Kigali, Rwanda. Phone / WhatsApp: +250 786974250, Email: stevenmwizerwa1@gmail.com.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 const DIRECT_LINKS = [

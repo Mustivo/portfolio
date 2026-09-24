@@ -53,7 +53,7 @@ export function Hero() {
 
             {/* Value Proposition */}
             <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Based in {siteConfig.location}. I build modern, scalable web applications and manage IT systems and network infrastructure. From developing educational systems like <strong>Bright Vision</strong> to engineering platforms like <strong>InzuHub</strong> and contributing to <strong>Open Source Kigali</strong>, I bring a commitment to hard work and practical technical excellence.
+              Based in {siteConfig.location}. I build modern, scalable web applications and manage IT systems and network infrastructure. From developing educational platforms like <strong>Bright Vision</strong> to engineering systems like <strong>InzuHub</strong> and <strong>ZoraShop</strong>, I bring a commitment to hard work and practical technical excellence.
             </p>
 
             {/* CTA Buttons */}
