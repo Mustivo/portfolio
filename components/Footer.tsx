@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Heart, ArrowUpRight, Phone } from "lucide-react";
 import { GithubIcon, LinkedinIcon, WhatsAppIcon } from "@/components/Icons";
 
@@ -12,13 +13,24 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand & Narrative */}
           <div className="md:col-span-2 space-y-4">
-            <div className="flex items-center gap-2">
-              <span className="font-bold text-lg text-slate-900 dark:text-white tracking-tight">
-                Mwizerwa Steven
-              </span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 dark:bg-emerald-950/80 dark:text-emerald-400 font-medium border border-emerald-300 dark:border-emerald-800">
-                IT Engineer &amp; Developer
-              </span>
+            <div className="flex items-center gap-3">
+              <div className="relative w-9 h-9 rounded-full overflow-hidden border-2 border-sky-500/80 shadow-xs shrink-0 bg-slate-900">
+                <Image
+                  src="/images/avatar.jpg"
+                  alt="Mwizerwa Steven"
+                  fill
+                  sizes="36px"
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-bold text-lg text-slate-900 dark:text-white tracking-tight">
+                  Mwizerwa Steven
+                </span>
+                <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 dark:bg-emerald-950/80 dark:text-emerald-400 font-medium border border-emerald-300 dark:border-emerald-800">
+                  IT Engineer &amp; Developer
+                </span>
+              </div>
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 max-w-sm leading-relaxed">
               IT Engineer and Software Developer based in Kigali, Rwanda. Mount Kigali University student, Open Source Kigali contributor, and Solvit Africa Fellow.

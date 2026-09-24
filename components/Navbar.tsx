@@ -2,9 +2,10 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ThemeToggle } from "./ThemeToggle";
-import { Menu, X, Code2, ArrowUpRight } from "lucide-react";
+import { Menu, X, ArrowUpRight } from "lucide-react";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
@@ -46,8 +47,15 @@ export function Navbar() {
             href="/"
             className="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-500 rounded-lg p-1"
           >
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-sky-500 via-indigo-500 to-purple-600 flex items-center justify-center text-white shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
-              <Code2 className="w-5 h-5" />
+            <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-sky-500/80 shadow-md shadow-sky-500/20 group-hover:scale-105 group-hover:border-sky-400 transition-all shrink-0 bg-slate-900">
+              <Image
+                src="/images/avatar.jpg"
+                alt="Mwizerwa Stiven"
+                fill
+                priority
+                sizes="(max-width: 640px) 36px, 40px"
+                className="object-cover"
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-base sm:text-lg tracking-tight text-slate-900 dark:text-white leading-none">

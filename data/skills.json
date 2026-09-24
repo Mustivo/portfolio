@@ -1,15 +1,15 @@
 [
   {
-    "category": "Frontend & Mobile",
+    "category": "Frontend & Web Engineering",
     "skills": [
+      { "name": "Next.js", "level": "Expert", "icon": "Boxes", "featured": true },
       { "name": "React.js", "level": "Expert", "icon": "Code2", "featured": true },
-      { "name": "React Native", "level": "Advanced", "icon": "Layers", "featured": true },
       { "name": "TypeScript", "level": "Advanced", "icon": "FileCode", "featured": true },
       { "name": "JavaScript (ES6+)", "level": "Expert", "icon": "Sparkles", "featured": true },
       { "name": "Tailwind CSS", "level": "Expert", "icon": "Palette", "featured": true },
-      { "name": "Expo", "level": "Advanced", "icon": "Box", "featured": true },
       { "name": "HTML5 & CSS3", "level": "Expert", "icon": "Layout", "featured": false },
-      { "name": "Bootstrap", "level": "Advanced", "icon": "Palette", "featured": false }
+      { "name": "Bootstrap", "level": "Advanced", "icon": "Palette", "featured": false },
+      { "name": "Responsive Web Design", "level": "Expert", "icon": "Eye", "featured": true }
     ]
   },
   {
@@ -19,7 +19,8 @@
       { "name": "Express.js", "level": "Advanced", "icon": "Terminal", "featured": true },
       { "name": "PHP", "level": "Advanced", "icon": "Binary", "featured": true },
       { "name": "REST APIs & Integration", "level": "Expert", "icon": "Network", "featured": true },
-      { "name": "Authentication & CRUD", "level": "Advanced", "icon": "ShieldCheck", "featured": true },
+      { "name": "Authentication (JWT & Sessions)", "level": "Advanced", "icon": "ShieldCheck", "featured": true },
+      { "name": "Prisma ORM", "level": "Advanced", "icon": "Boxes", "featured": true },
       { "name": "Firebase", "level": "Advanced", "icon": "Cloud", "featured": false },
       { "name": "Python", "level": "Intermediate", "icon": "Code2", "featured": false }
     ]
@@ -27,30 +28,40 @@
   {
     "category": "Databases & Management",
     "skills": [
+      { "name": "PostgreSQL", "level": "Advanced", "icon": "Database", "featured": true },
       { "name": "MySQL", "level": "Advanced", "icon": "Database", "featured": true },
-      { "name": "JSON & State Management", "level": "Expert", "icon": "Cpu", "featured": true },
-      { "name": "PostgreSQL", "level": "Intermediate", "icon": "Database", "featured": false },
-      { "name": "Database Design & CRUD", "level": "Advanced", "icon": "CheckCircle2", "featured": false }
+      { "name": "MongoDB", "level": "Intermediate", "icon": "Database", "featured": false },
+      { "name": "Database Design & CRUD", "level": "Advanced", "icon": "CheckCircle2", "featured": true },
+      { "name": "State & Data Caching", "level": "Expert", "icon": "Cpu", "featured": false }
     ]
   },
   {
-    "category": "Tools, IT & Administration",
+    "category": "Tools, DevOps & Version Control",
     "skills": [
       { "name": "Git & GitHub", "level": "Expert", "icon": "GitBranch", "featured": true },
-      { "name": "Network Administration", "level": "Advanced", "icon": "Network", "featured": true },
-      { "name": "Hardware & IT Equipment", "level": "Expert", "icon": "Server", "featured": true },
-      { "name": "Microsoft Office Suite", "level": "Expert", "icon": "Layout", "featured": false },
-      { "name": "Irembo Government Services", "level": "Expert", "icon": "CheckCheck", "featured": false }
+      { "name": "Docker & Containers", "level": "Intermediate", "icon": "Box", "featured": true },
+      { "name": "VS Code", "level": "Expert", "icon": "Code2", "featured": false },
+      { "name": "Turbopack & npm", "level": "Advanced", "icon": "Zap", "featured": false },
+      { "name": "CI/CD & GitHub Actions", "level": "Intermediate", "icon": "Activity", "featured": false }
     ]
   },
   {
-    "category": "Design & Principles",
+    "category": "IT Engineering & Infrastructure",
     "skills": [
-      { "name": "Responsive Web Design", "level": "Expert", "icon": "Eye", "featured": true },
-      { "name": "UI/UX Design", "level": "Advanced", "icon": "Palette", "featured": true },
-      { "name": "Graphic Design", "level": "Advanced", "icon": "Sparkles", "featured": false },
-      { "name": "SEO Optimization", "level": "Advanced", "icon": "GaugeCircle", "featured": true },
-      { "name": "Driving (Category B)", "level": "Advanced", "icon": "Compass", "featured": false }
+      { "name": "Network Administration (LAN/WLAN)", "level": "Expert", "icon": "Network", "featured": true },
+      { "name": "Hardware & IT Equipment Maintenance", "level": "Expert", "icon": "Server", "featured": true },
+      { "name": "Irembo Government Services", "level": "Expert", "icon": "CheckCheck", "featured": true },
+      { "name": "System Diagnostics & Technical Support", "level": "Expert", "icon": "Cpu", "featured": false },
+      { "name": "Microsoft Office Suite (Word, Excel, PowerPoint, Access)", "level": "Expert", "icon": "Layout", "featured": false }
+    ]
+  },
+  {
+    "category": "Languages & Certifications",
+    "skills": [
+      { "name": "Kinyarwanda (Native)", "level": "Expert", "icon": "Users", "featured": false },
+      { "name": "English (Fluent / Professional)", "level": "Advanced", "icon": "Users", "featured": false },
+      { "name": "French (Elementary)", "level": "Intermediate", "icon": "Users", "featured": false },
+      { "name": "Driver License (Category B)", "level": "Advanced", "icon": "Compass", "featured": false }
     ]
   }
 ]
